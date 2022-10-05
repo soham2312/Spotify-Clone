@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-My Playlist</title>
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link rel="stylesheet" href="clone.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <h1>Best of One Direction</h1>
+        <div class="songs">
+            <div class="songitem">
+                <img src="https://i.ytimg.com/vi/afq4x8aTEfc/maxresdefault.jpg" alt="1" style="width:90px">
+                <span class="name">Best Song Ever</span>
+                <span class="songlistplay"><span class="timestap">3:57
+                        <i id="0" class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.pinimg.com/564x/dd/0f/90/dd0f90fd3163ba24b68ff5d5948b5f3d.jpg" alt="2"
+                    style="width:90px">
+                <span class="name">Steal My Girl</span>
+                <span class="songlistplay"><span class="timestap" style="margin-left:18px;">4:12<i id="1"
+                            class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.ytimg.com/vi/Y1xs_xPb46M/maxresdefault.jpg" alt="3" style="width:70px">
+                <span class="name">You & I</span>
+                <span class="songlistplay"><span class="timestap" style="margin-left: 35px;">4:04<i id="2"
+                            class="fa songItemPlay  fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.ytimg.com/vi/QJO3ROT-A4E/maxresdefault.jpg" alt="4" style="width:90px">
+                <span class="name" style="margin: 13px 60px ;">What Makes You Beautiful</span>
+                <span class="songlistplay"><span class="timestap">3:26<i id="3"
+                            class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.ytimg.com/vi/qKVWYJFct5U/maxresdefault.jpg" alt="5" style="width:90px">
+                <span class="name" style="margin: 13px 70px ;">Live While We're Young</span>
+                <span class="songlistplay"><span class="timestap">3:18<i id="4"
+                            class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.ytimg.com/vi/PJYpZ4hkXJE/maxresdefault.jpg" alt="6" style="width:90px">
+                <span class="name">Story of My Life</span>
+                <span class="songlistplay"><span class="timestap">4:06<i id="5"
+                            class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.ytimg.com/vi/QOZn9iqaZb8/maxresdefault.jpg" alt="7" style="width:90px">
+                <span class="name" style="margin: 13px 103px ;">Drag Me Down</span>
+                <span class="songlistplay"><span class="timestap">3:12<i id="6"
+                            class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="https://i.scdn.co/image/ab67616d0000b273d304ba2d71de306812eebaf4" alt="8" style="width:90px">
+                <span class="name" style="margin: 13px 103px ;">Night Changes</span>
+                <span class="songlistplay"><span class="timestap">4:00<i id="7"
+                            class="fa songItemPlay fa-circle-play"></i></span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Bottom">
+
+        <input type="range" name="Range" value="0" min="0" max="100" id="myProgressBar">
+        <div class="icons">
+
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="EIQV.gif" height="30px"width="50px" id="gif" alt="g.i.f" ">
+            <span id="mastersongname">Best Song Ever</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ef4782cdfe.js" crossorigin="anonymous"></script>
+    <script src="clone.js"></script>
+</body>
+
+</html>
